@@ -219,7 +219,7 @@ const PolaroidGrid = () => {
         <div
           className={PolaroidGridCSS.secondContainer}
           style={{
-          width: 1000,
+          width: 1200,
           height:2000 
           }}
         >
@@ -237,13 +237,13 @@ const PolaroidGrid = () => {
             return (
               <div key={index} className={PolaroidGridCSS.items}>
                 <div className='productList'>
-                  <div className='productCard'>
+                  <div className={PolaroidGridCSS.productCard}>
                     <div className="{PolaroidGridCSS.image}">
                     <img src={items.image} alt="Sampleimg.png"  className={PolaroidGridCSS.image}/>
                     </div>
-                    <div className='productCard__content'>
-                      <h3 className='productName'>{items.name}</h3>
-                      <p className="productInfo">{items.year}</p>
+                    <div className={PolaroidGridCSS.productCard__content}>
+                      <h3 className={PolaroidGridCSS.productName}>{items.name}</h3>
+                      <p className={PolaroidGridCSS.productInfo}>{items.year}</p>
                     </div>
                   </div>
                 </div>

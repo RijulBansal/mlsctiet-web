@@ -32,7 +32,7 @@ export default function Carousels (items) {
 
     return (
        <div className='container'>
-            <Carousel responsive={responsive} autoPlay={false} autoPlaySpeed={3500} infinite={false}>
+            <Carousel responsive={responsive} autoPlay={false} autoPlaySpeed={3500} infinite={true}>
                 <FinalCard items={items}/>
             </Carousel>
         </div>
