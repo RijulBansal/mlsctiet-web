@@ -1,4 +1,4 @@
-# Guideline
+# Guidelines
 ## Steps for Contribution
 1) Fork this repository and clone it on your local machine.
 2) Use 
