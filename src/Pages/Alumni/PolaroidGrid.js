@@ -135,6 +135,7 @@ import Circles from "./Assets/Circles.svg";
 import { useLocation } from "react-router-dom";
 import Carousels from "./Components/Carousels";
 import Card from "./Components/Card";
+import "../Alumni/Styles/arrow.css";
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -212,15 +213,16 @@ const PolaroidGrid = () => {
           </div>
           <img src={Lines} className={PolaroidGridCSS.zebra}></img>
         </div>
-        <div>
+        <div className={PolaroidGridCSS.outer}>
         <div className={PolaroidGridCSS.text}>
            <p> Meet our team <span className={PolaroidGridCSS.y}>{items[0].year}</span></p> 
           </div>
         <div
           className={PolaroidGridCSS.secondContainer}
           style={{
-          width: 1200,
-          height:2000 
+          width: 990,
+          height:350,
+          
           }}
         >
         {/* <Carousel

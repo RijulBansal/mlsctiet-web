@@ -151,7 +151,7 @@
 } 
 
 .zebra {
-  padding-top: 20rem;
+  padding-top: 16rem;
   margin-left: 2rem;
   margin-right: 2rem;
 } 
@@ -168,7 +168,7 @@
   height: 13.4vh; 
   padding: 0%;
   font-size: 12vh;
-  
+  margin-left: 7.5rem;
 }
 
  /* .secondContainer {
@@ -191,11 +191,33 @@
   backdrop-filter: blur(15.8047px);
   transform: matrix(1, 0, 0, 1, 0, 0); 
 }  */
-
+/* .outer{
+  width: 1500px;
+} */
 .secondContainer {
   text-align: center;
-  margin-top:4rem;
+  margin-top: 6.7rem;
+  margin-left: 8rem;
+  /* padding-left: 10vh; */
+  z-index: 0;
+  /* width: 1000; */
+  /* background-color: green; */
+  /* margin-left: 5rem; */
+  /* background-color: yellow; */
 }
+
+/* .react-multi-carousel-list{
+  margin-right: 5rem;
+} */
+/* .secondContainer .react-multiple-carousel__arrow {
+  background-color: rgba(0,0,0,0.5) !important; 
+  opacity: 0.5; 
+  transition: opacity 0.3s ease; 
+}
+.secondContainer .react-multiple-carousel__arrow:hover {
+  
+  background-color: yellow; 
+} */
 
 .y{
   font-family: 'Alex Brush', cursive;
@@ -209,19 +231,19 @@
 } */
 
 .thirdContainer {
-  margin-top: 0;
-  margin-left: -3vh;
+  margin-top: 3rem;
+  margin-left: -5vh;
 }
 .image {
-  width: 42vh;
+  width: 40vh;
 	height: 53vh;
-	/* position: relative; */
+	position: relative;
   /* transition: .5s ease; */
   /* backface-visibility: hidden; */
 }
 
 .productCard{
-  width:42vh;
+  width:40vh;
 }
 .productCard__content{
   /* transform: translateY(-10.5rem);  */
@@ -232,17 +254,27 @@
   /* transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%); */
   text-align: center;
-  height: 18vh;
+  height: 8vh;
   font-family: "poppins";
+  margin-top:-5.5rem;
+  background-color: rgba(0,0,0,0.5);
+  margin-bottom: -50px;
+  text-align: center;
+  position: absolute;
+  width: 40vh;
+  
 } 
 .productName{
-  font-size: 2rem;
+  font-size: 2.3rem;
+  margin-top: 3%;
+  vertical-align: middle;
 }
 .productCard__content:hover{
-  transform: translateY(-13.15rem);
+  transform: translateY(-8.5rem);
   opacity: 100%;
   background-color: rgba(0,0,0,0.5);
   color:white;
+  height: 21.5vh;
   /* visibility: inherit; */
   /* width:33.1vh; */
 }
@@ -272,6 +304,7 @@
 } */
 .productInfo{
   visibility: hidden;
+  font-size: 1.2rem;
   /* opacity: 100%;  */
   /*color: rgba(0,0,0,0);
   /* -webkit-transition: color 0.5s ease-out;
@@ -295,6 +328,7 @@
 .items{
   width: 80vh;
   height:60vh;
+  /* margin-left: 6rem; */
 }
 
 /* .image {

@@ -17,6 +17,7 @@ const Carouselss = () => {
         showThumbs={false}
         className={CarouselCSS.Carousel}
         dynamicHeight={false}
+        showStatus={false}
       >
         <div>
           <img src={Y2018} className={CarouselCSS.img} />
