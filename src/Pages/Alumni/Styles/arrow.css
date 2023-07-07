@@ -18,3 +18,12 @@
     background: #ffffff1d !important;
     
   }
+
+  .react-multi-carousel-list {
+    width: 75vw !important;
+    height: 75vh !important;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+  }

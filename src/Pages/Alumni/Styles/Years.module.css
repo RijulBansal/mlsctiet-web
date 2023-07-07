@@ -105,14 +105,15 @@
 }
 
 .buttons:focus{
-  margin-right: -2.2vh; 
+  /* margin-right: -2.2vh;  */
   background-image: url("pol.png"); 
-  transform: translateX(-1.1rem) scale(1.2);  
+  transform: translateX(0rem) scale(1);  
   /* transition: all 0.2s; */
-  justify-content: center;
-  height: 15vh;
-  width: 20vh;
+  /* justify-content: center; */
+  height: 16vh;
+  /* width: 20vh; */
 }
 .buttons{
   margin-top: -0.7rem;
+  height: 16vh;
 }
