@@ -126,11 +126,12 @@
 
  .container {
   display: flex;
+  width: 100%;
   flex-direction: row;
   background-color: #0d1213;
-  height: 100rem;
+  height: calc(100rem - 60px);
   padding-top: 80px;
-  padding-right: -20px;
+  /* padding-right: -20px; */
   color: white;
   /* overflow: hidden;
   overflow-y: hidden; */
@@ -139,6 +140,7 @@
 
  .mainContainer {
   display: flex;
+  width: 90%;
   /* overflow: scroll; */
   /* padding-right: 4rem; */
 } 
@@ -195,12 +197,16 @@
   width: 1500px;
 } */
 .secondContainer {
+  /* display: flex; */
+  height: 75vh !important;
+  /* align-items: center; */
   text-align: center;
-  margin-top: 6.7rem;
-  margin-left: 8rem;
+  align-self: center;
+  /* margin-top: 6.7rem; */
+  /* margin-left: 8rem; */
   /* padding-left: 10vh; */
   z-index: 0;
-  /* width: 1000; */
+  width: 75vw !important;
   /* background-color: green; */
   /* margin-left: 5rem; */
   /* background-color: yellow; */
@@ -231,8 +237,11 @@
 } */
 
 .thirdContainer {
-  margin-top: 3rem;
-  margin-left: -5vh;
+  /* margin-top: 3rem; */
+  align-self: center;
+  float: right;
+  width: 10%;
+  /* margin-left: -5vh; */
 }
 .image {
   width: 40vh;
@@ -386,5 +395,39 @@
   }
 } */
 
-/* @media screen and (max-width: 580px) {
-} */
+@media screen and (max-width: 786px) {
+  .container{
+    width: 100%;
+  }
+
+  .mainContainer{
+    text-align: center;
+    width: 100%;
+  }
+
+  .text{
+    font-size: 3rem;
+    margin-left: 0 !important;
+  }
+
+  .y{
+    display: none;
+  }
+  .firstContainer{
+    display: none;
+  }
+
+  .secondContainer{
+    width: 60vw !important;
+    height: auto !important;
+
+  }
+
+  .thirdContainer{
+    display: none;
+  }
+
+  .mobile_buttons{
+    display: none !important;
+  }
+}

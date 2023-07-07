@@ -217,11 +217,18 @@ const PolaroidGrid = () => {
         <div className={PolaroidGridCSS.text}>
            <p> Meet our team <span className={PolaroidGridCSS.y}>{items[0].year}</span></p> 
           </div>
+          {/* <div className="mobile_buttons">
+            <button>2018</button>
+            <button>2019</button>
+            <button>2020</button>
+            <button>2021</button>
+            <button>2022</button>
+          </div> */}
         <div
           className={PolaroidGridCSS.secondContainer}
           style={{
-          width: 990,
-          height:350,
+          // width: 990,
+          // height:350,
           
           }}
         >

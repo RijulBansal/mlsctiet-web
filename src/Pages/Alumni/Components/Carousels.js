@@ -20,12 +20,12 @@ export default function Carousels (items) {
           slidesToSlide: 3
         },
         tablet: {
-          breakpoint: { max: 1024, min: 464 },
+          breakpoint: { max: 1024, min: 786 },
           items: 2,
           slidesToSlide: 3
         },
         mobile: {
-          breakpoint: { max: 464, min: 0 },
+          breakpoint: { max: 786, min: 0 },
           items: 1
         }
       };
